@@ -9,14 +9,14 @@ valid_password = "password123"
 
 @app.route("/")
 def login_page():
-    return render_template("Airline.html")
+    return render_template("login.html")
 
 
 @app.route("/login", methods=["POST"])
 def login():
     username = request.form.get("username")
     password = request.form.get("password")
-
+    print(username, password)
     if username == valid_username and password == valid_password:
         return "Login successful"
     else:
