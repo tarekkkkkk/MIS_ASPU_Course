@@ -1,8 +1,0 @@
-
-To run Back-end : npm start
-To run Front-end: npm run dev
-
-
-in the beginning we put end point ->  /register
-
-
