@@ -1,3 +1,0 @@
-For the login page to work properly,
-the Thank You page must be downloaded
-and the two pages must be in the same folder or path
